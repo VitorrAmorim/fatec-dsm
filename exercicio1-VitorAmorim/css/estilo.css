@@ -1,0 +1,25 @@
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+header {
+    background-color: #d40000;
+    color: #fff;
+    padding: 15px;
+}
+
+nav, main, footer {
+    padding: 10px;
+    margin: 10px;
+}
+
+h1, h2 {
+    color: #d40000;
+}
