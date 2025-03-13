@@ -1,0 +1,5 @@
+custo = float(input("Digite o preço original:"))
+distribuidor = custo + (custo * 0.28)
+imposto = distribuidor + (distribuidor * 0.45)
+print(distribuidor, imposto)
+print(f"O preço será de {imposto}")
