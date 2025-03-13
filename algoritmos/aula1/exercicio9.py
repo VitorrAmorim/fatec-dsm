@@ -1,3 +1,5 @@
+# IMC (Índice de Massa Corporal)
+
 peso = float(input("Digite o peso:"))
 altura = float(input("Digite a altura:"))
 imc = peso / (altura**2)
