@@ -4,60 +4,6 @@
 }
 
 body {
-<<<<<<< HEAD
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#container {
-    margin: 40px auto;
-    width: 80%;
-}
-
-header,
-nav,
-footer,
-main {
-    float: left;
-}
-
-header {
-    width: 98%;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-nav.superior,
-nav.topo {
-    width: 100%;
-    margin-bottom: 1%;
- 
-}
-
-/* nav.topo {
-    text-align: center;
-} */
-
-header {
-    height: 200px;
-    background-color: DodgerBlue;
-}
-
-nav.superior {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-nav.lateral {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 29%;
-    background-color: #f1f1f1;
-}
-
-main {
-    background-color: white;
-    border-radius: 20px;
-    border: 1px dashed gray;
-    width: 62%;
-=======
     background-color: white;
     font-family: Arial, sans-serif;
 }
@@ -85,29 +31,24 @@ header img{
 }
 
 main img {
-    width: 100%;  /* Faz a imagem ocupar toda a largura do container */
-    max-width: 600px;  /* Define um tamanho máximo */
-    height: auto;  /* Mantém a proporção original */
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     display: block;
-    margin: 20px auto;  /* Centraliza a imagem */
-    border-radius: 10px;  /* Bordas arredondadas */
-    border: 4px solid #ddd;  /* Borda para destacar a imagem */
-    box-shadow: 0px 4px 8px black  /* Sombra para efeito de profundidade */
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 4px solid white;
+    box-shadow: 0px 4px 8px black;
 }
 
 main {
     margin-top: 1%;
     width: 92%;
->>>>>>> f5dc279 (aula 4 + alteracao de arquivos)
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: justify;
-<<<<<<< HEAD
-    float: right;
-=======
->>>>>>> f5dc279 (aula 4 + alteracao de arquivos)
 }
 
 main p,
@@ -116,73 +57,10 @@ main h3 {
 }
 
 main h3 {
-<<<<<<< HEAD
-    color: red;
-=======
->>>>>>> f5dc279 (aula 4 + alteracao de arquivos)
     text-transform: uppercase;
     margin-bottom: 2%;
 }
 
-<<<<<<< HEAD
-footer {
-    margin-top: 1%;
-    background-color: SteelBlue;
-    width: 100%;
-    height: 400px;
-}
-
-.logo {
-    width: 150px;
-}
-
-/* nav vertical inicio */
-nav.lateral ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    left: 0;
-    height: 50%;
-    width: 10%;
-}
-
-nav.lateral li {
-    border: 1px solid dimgray;
-}
-
-nav.lateral li a {
-    display: block;
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-    background-color: gray;
-    
-
-}
-
-nav.lateral li a:hover {
-    background-color: gray;
-    color: #f1f1f1;
-    text-indent: 10px;
-}
-
-nav.lateral .active {
-    background-color: steelblue;
-    color: white;
-
-}
-/* nav vertical fim */
-
-
-/* nav topo inicio */
-nav.topo ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: gray;
-=======
 main img{
     height: 50%;
     margin-top: 15px;
@@ -202,16 +80,11 @@ nav.topo ul {
     margin: 0;
     overflow: hidden;
     background-color: #c8102e;
->>>>>>> f5dc279 (aula 4 + alteracao de arquivos)
     position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
-<<<<<<< HEAD
-
-=======
     left: 0;
->>>>>>> f5dc279 (aula 4 + alteracao de arquivos)
 }
 
 nav.topo li {
@@ -227,55 +100,6 @@ nav.topo li a {
 }
 
 nav.topo li a:hover {
-<<<<<<< HEAD
-    background-color: black;
-    
-}
-
-nav.topo .active {
-    background-color: steelblue;
-}
-/* nav topo fim  */
-
-
-/* nav superior inicio */
-nav.superior ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: gray;
-    text-align: center;
-
-}
-
-nav.superior li {
-    float: left;
-    border-right: 1px solid dimgray;
-}
-
-nav.superior li:last-child{
-    border-right: none;
-}
-
-nav.superior li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-nav.superior li a:hover {
-    background-color: black;
-    
-}
-
-nav.superior .active {
-    background-color: steelblue;
-}
-/* nav superior fim  */
-=======
     background-color: grey;
 }
 
@@ -334,7 +158,6 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-    /* Menu lateral vai ocupar toda a largura em telas pequenas */
     nav.lateral {
         width: 100%;
         height: auto;
@@ -343,7 +166,6 @@ footer {
         padding-top: 0;
     }
 
-    /* Ajusta o conteúdo principal para a tela cheia */
     #container {
         width: 100%;
         margin: 0;
@@ -356,7 +178,6 @@ footer {
         padding-top: 5%;
     }
 
-    /* Torna o menu topo mais compacto */
     nav.topo ul {
         display: flex;
         flex-wrap: wrap;
@@ -373,9 +194,7 @@ footer {
         padding: 8px 16px;
     }
 
-    /* Ajusta a logo no rodapé para não ser muito grande em telas pequenas */
     footer .logo {
         width: 100px;
     }
 }
->>>>>>> f5dc279 (aula 4 + alteracao de arquivos)
