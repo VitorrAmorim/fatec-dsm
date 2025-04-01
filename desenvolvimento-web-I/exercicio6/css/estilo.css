@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");   /* Import dos icons */
 
 @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
 
@@ -45,28 +45,34 @@ main {
   float: left;
 }
 
-.topo li a{
-  font-family: "Bebas_Neue"; /* 1° Dafont */
+.topo li a {
+  font-family: "Bebas_Neue";
+  /* 1° Dafont */
 }
 
 #container header h1 {
-  font-family: "Insaniburger";  /* 2° Dafont */
+  font-family: "Insaniburger";
+  /* 2° Dafont */
 }
 
-.superior li a{
-  font-family: "jigsaw_pieces";  /* 3° Dafont */
+.superior li a {
+  font-family: "jigsaw_pieces";
+  /* 3° Dafont */
 }
 
-.lateral li a{
-  font-family: "Tektur";  /* 1° Google Font */
+.lateral li a {
+  font-family: "Tektur";
+  /* 1° Google Font */
 }
 
-main h3{
-  font-family: "Boldonse";  /* 2° Google Font */
+main h3 {
+  font-family: "Boldonse";
+  /* 2° Google Font */
 }
 
-footer p{
-  font-family: "Bytesized"; /* 3° Google Font */
+footer p {
+  font-family: "Bytesized";
+  /* 3° Google Font */
 }
 
 header {
@@ -74,7 +80,8 @@ header {
   padding-left: 1%;
   padding-right: 1%;
   height: 200px;
-  background-color: rgba(29, 66, 138, 0.5); /* Transparência */
+  background-color: rgba(29, 66, 138, 0.5);
+  /* Transparência */
   float: left;
   text-align: center;
   color: white;
@@ -88,15 +95,18 @@ header img {
 
 h1,
 footer {
-  font-family:  sans-serif; /* 1° Dafont */
+  font-family: sans-serif;
+  /* 1° Dafont */
 }
 
 li a {
-  font-family:  sans-serif; /* 2° Dafont */
+  font-family: sans-serif;
+  /* 2° Dafont */
 }
 
-h3{
-  font-family:  sans-serif; /* 3° Dafont */
+h3 {
+  font-family: sans-serif;
+  /* 3° Dafont */
 }
 
 nav.superior,
@@ -104,7 +114,7 @@ nav.topo {
   width: 100%;
   margin-bottom: 1%;
   color: #c8102e;
-  font-family:  sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
 }
 
@@ -147,7 +157,7 @@ main h3 {
 }
 
 main p {
-  font-family:  sans-serif;
+  font-family: sans-serif;
 }
 
 main h3 {
@@ -281,17 +291,34 @@ footer {
 #tabela-jogadores {
   width: 100%;
   border-collapse: collapse;
-  margin: 20px auto;
+  margin-top: 2%;
 }
 
 #tabela-jogadores td,
 #tabela-jogadores th {
-    border: 1px solid black ;
-    padding: 8px;
+  border: 1px solid black;
+  padding: 8px;
 }
 
-#título{
+#tabela-jogadores tr:hover {
+  background-color: gray;
+}
+
+#título {
   background-color: #c8102e;
   text-align: center;
+  color: white;
+}
+
+#subtitulos {
+  background-color: #1d428a;
+  color: white;
+}
+
+#footer-link {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #c8102e;
   color: white;
 }
