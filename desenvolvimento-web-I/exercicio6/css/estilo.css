@@ -1,0 +1,297 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap');
+
+@font-face {
+  font-family: "Bebas_Neue";
+  src: url("../fontes/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Insaniburger";
+  src: url("../fontes/Insanibu.ttf");
+}
+
+@font-face {
+  font-family: "jigsaw_pieces";
+  src: url("../fontes/jigsaw_pieces.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../imagem/fundo.png");
+  background-color: white;
+  font-family: "Tektur", Helvetica, sans-serif;
+  background-attachment: fixed;
+}
+
+#container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+header,
+nav,
+footer,
+main {
+  float: left;
+}
+
+.topo li a{
+  font-family: "Bebas_Neue"; /* 1° Dafont */
+}
+
+#container header h1 {
+  font-family: "Insaniburger";  /* 2° Dafont */
+}
+
+.superior li a{
+  font-family: "jigsaw_pieces";  /* 3° Dafont */
+}
+
+.lateral li a{
+  font-family: "Tektur";  /* 1° Google Font */
+}
+
+main h3{
+  font-family: "Boldonse";  /* 2° Google Font */
+}
+
+footer p{
+  font-family: "Bytesized"; /* 3° Google Font */
+}
+
+header {
+  width: 98%;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 200px;
+  background-color: rgba(29, 66, 138, 0.5); /* Transparência */
+  float: left;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+
+header img {
+  height: 50%;
+  margin-top: 15px;
+}
+
+h1,
+footer {
+  font-family:  sans-serif; /* 1° Dafont */
+}
+
+li a {
+  font-family:  sans-serif; /* 2° Dafont */
+}
+
+h3{
+  font-family:  sans-serif; /* 3° Dafont */
+}
+
+nav.superior,
+nav.topo {
+  width: 100%;
+  margin-bottom: 1%;
+  color: #c8102e;
+  font-family:  sans-serif;
+  font-weight: 300;
+}
+
+nav.superior {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.lateral {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 29%;
+  background-color: #c8102e;
+}
+
+main img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 4px solid white;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px dashed gray;
+  width: 62%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: justify;
+  float: right;
+}
+
+main p,
+main h3 {
+  text-indent: 2%;
+}
+
+main p {
+  font-family:  sans-serif;
+}
+
+main h3 {
+  color: #c8102e;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+main img {
+  height: 50%;
+  margin-top: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+/* nav topo inicio */
+nav.topo ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #c8102e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+nav.topo li {
+  display: inline-block;
+  margin: 0.5;
+}
+
+nav.topo li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.topo li a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+nav.topo .active {
+  background-color: #1d428a;
+}
+
+/* nav topo fim */
+
+
+
+/* nav superior inicio */
+nav.superior ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c8102e;
+  text-align: center;
+}
+
+nav.superior li {
+  float: left;
+}
+
+nav.superior li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.superior li a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+nav.superior .active {
+  background-color: #1d428a;
+}
+
+nav.superior li {
+  border-right: 1px solid rgb(0, 0, 0);
+}
+
+nav.superior li:last-child {
+  border-right: none;
+}
+
+/* nav superior fim */
+
+/* nav lateral inicio */
+nav.lateral ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.lateral li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* ao passar o mouse sobre */
+nav.lateral li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+nav.lateral .active {
+  background-color: #1d428a;
+  color: white;
+}
+
+/* nav vertical fim */
+
+footer {
+  margin-top: 5%;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+}
+
+#tabela-jogadores {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+#tabela-jogadores td,
+#tabela-jogadores th {
+    border: 1px solid black ;
+    padding: 8px;
+}
+
+#título{
+  background-color: #c8102e;
+  text-align: center;
+  color: white;
+}
