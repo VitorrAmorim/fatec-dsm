@@ -11,4 +11,4 @@ print('Bom dia ' + nome)
 nome = 30 #Particularidade do Python: o mesmo identificador pode armazenar valores de tipos diferentes
 print(nome)
 
-'''1lab el = 10 #Não é permitido iniciar um identificador com número'''
+'''1lab = 10 #Não é permitido iniciar um identificador com número'''
