@@ -43,4 +43,41 @@ $("#calcular").click(function () {
     var mostrar = "da média";
     mostrar = (media > 6) ? "acima " + mostrar : "abaixo " + mostrar;
     alert("If Ternário - resultado: " + mostrar);
+
+    // Estrutura de decisão - switch case
+    var msg = "A média é ";
+    switch (parseInt(media) % 2) {
+        case 0:
+            msg += "par";
+            break;
+        case 1:
+            msg += "ímpar";
+            break;
+        default:
+            msg = "erro";
+            break;
+    }
+    alert(msg);
+
+    switch (true) {
+        case (media > 10):
+            msg = "Maior que 10";
+            break;
+        case (media > 5):
+            msg = "Maior que 5";
+            break;
+        default:
+            msg = "Menor ou igual a 5";
+            break;
+    }
+
+    // Fatorial
+    var fatorial = 1;
+    for (var i = 1; i <= v1; i++) {
+        fatorial *= i;
+    }
+
+    $("#txtfatorial")
+        .text("O faorial é: " + fatorial)
+        .css({ 'font-'})
 });
